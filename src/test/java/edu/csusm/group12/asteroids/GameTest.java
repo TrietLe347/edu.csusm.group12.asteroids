@@ -8,6 +8,6 @@ class GameTest {
     @Test
     void testGameLoads() {
         // Just a sanity check that JUnit is working
-        assertEquals(2, 1);
+        assertEquals(2, 1 + 1);
     }
 }
