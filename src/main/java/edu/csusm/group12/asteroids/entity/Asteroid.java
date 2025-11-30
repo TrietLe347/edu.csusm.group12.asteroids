@@ -119,10 +119,12 @@ public class Asteroid extends Entity {
 	 * @param random The random instance.
 	 * @return The velocity.
 	 */
+	
+	/*
 	private static Vector2 calculateVelocity(Random random) {
 		return new Vector2(random.nextDouble() * Math.PI * 2).scale(MIN_VELOCITY + random.nextDouble() * VELOCITY_VARIANCE);
 	}
-	
+	*/
 	@Override
 	public void update(Game game) {
 		super.update(game);
