@@ -57,7 +57,7 @@ public abstract class Entity {
 		this.radius = radius;
 		this.rotation = 0.0f;
 		this.killScore = killScore;
-		this.needsRemoval = true;
+		this.needsRemoval = false;
 	}
 	
 	/**
