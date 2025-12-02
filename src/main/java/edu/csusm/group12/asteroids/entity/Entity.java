@@ -74,10 +74,10 @@ public abstract class Entity {
 	 * @return The kill score.
 	 */
 	
-	/*
+	
 	public int getKillScore() {
 		return killScore;
-	}*/
+	}
 	
 	/**
 	 * Flags that this Entity should be removed from the world.
