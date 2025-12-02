@@ -25,7 +25,7 @@ class PlayerTest {
     @Test
     public void testPlayerDontNeedRemoval() {
         
-        assertTrue(player.needsRemoval());
+        assertFalse(player.needsRemoval());
 
     }
 
