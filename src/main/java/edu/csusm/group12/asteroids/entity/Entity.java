@@ -73,9 +73,11 @@ public abstract class Entity {
 	 * Gets the number of points awarded for killing this entity.
 	 * @return The kill score.
 	 */
+	
+	/*
 	public int getKillScore() {
 		return killScore;
-	}
+	}*/
 	
 	/**
 	 * Flags that this Entity should be removed from the world.
